@@ -17,7 +17,7 @@ const RegistrationForm = () => {
                 form={form}
                 onFinish={onFinish}
 
-                style={{ width: "50%" }}
+                style={{ width: "60%" }}
                 className='px-10 py-14 reg-form'
             >
                 <Space direction='horizontal'>
