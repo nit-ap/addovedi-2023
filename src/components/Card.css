@@ -1,0 +1,47 @@
+.card-container{
+    height: 450px;
+    width: 350px;
+    background-color: white;
+    padding: 40px 20px;
+    margin: 30px 20px;
+    background-color: rgb(20, 16, 140);
+}
+
+.card{
+    width: 100%;
+    height: 90%;
+    overflow: hidden;
+}
+
+ .card img{
+    height: 100%;
+    transition: all 2s ease;
+} 
+
+.card .overlay{
+    
+    position: relative;
+    top: -40px;
+    left: 0;
+    height: 20px;
+    color: white;
+    font-size: 1.15rem;
+    transition: all 2s ease;
+}
+
+.card-container:hover .overlay{
+    top: -300px;
+}
+.card-container:hover img{
+    filter:brightness(50%);
+}
+
+.btn{
+
+    padding: 4px 10px;
+    font-size: 1.05rem;
+    border: none;
+    outline: none;
+    background-color: rgb(99, 8, 99);
+    color: white;
+}
